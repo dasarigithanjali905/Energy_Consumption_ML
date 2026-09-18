@@ -1,0 +1,62 @@
+{
+  "task_type": "regression",
+  "best_model": "random_forest_regressor",
+  "accuracies": {
+    "linear_regression": 0.13077927627578922,
+    "random_forest_regressor": 0.480514333337682,
+    "xgboost_regressor": 0.4782201747295386
+  },
+  "classification_reports": {},
+  "confusion_matrices": {},
+  "feature_importance": {
+    "indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "values": [
+      0.34139760976712136,
+      0.051193357605638846,
+      0.07228340281114026,
+      0.04830568315681687,
+      0.04639878002027607,
+      0.04899736646448588,
+      0.04517058555641312,
+      0.05497308644857031,
+      0.04660752653137793,
+      0.04667914894714268,
+      0.04547706855369624,
+      0.04578261153017527,
+      0.05365200523391434,
+      0.053081767373230775
+    ]
+  },
+  "target_column": "EnergyConsumption",
+  "text_columns": [],
+  "numeric_columns": [
+    "Occupancy"
+  ],
+  "categorical_columns": [
+    "HVACUsage",
+    "LightingUsage",
+    "DayOfWeek",
+    "Holiday"
+  ],
+  "dropped_columns": [
+    "Temperature",
+    "Humidity",
+    "SquareFootage",
+    "RenewableEnergy"
+  ]
+}
