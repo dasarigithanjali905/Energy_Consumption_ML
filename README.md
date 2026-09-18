@@ -128,7 +128,7 @@ The dependencies are listed in `requirements.txt`.
 ### 1. Clone the repository
 
 bash
-git clone https://github.com/YOUR_USERNAME/Energy_Consumption.git
+git clone https://github.com/dasarigithanjali905@gmail.com/Energy_Consumption.git
 cd Energy_Consumption
 
 
